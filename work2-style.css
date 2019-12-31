@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 
-.container {
+.container1 {
     width: 1280px;
     /* 1200 changed. remove these two to take out the white space around the block.
     min-height: 500px;
@@ -18,7 +18,7 @@
     flex-wrap: wrap; /*this will create seperate the bricksas complete squares*/
 }
 
-.container .box {
+.container1 .box {
     position: relative;
     width: 300px;
     height: 300px;
@@ -28,11 +28,11 @@
     display: inline-block;
 }
 
-.container .box .imgBox {
+.container1 .box .imgBox {
     position: relative;
 }
 
-.container .box .imgBox img {
+.container1 .box .imgBox img {
     max-width: 100%;
     transition: transform 2s;
 
@@ -42,7 +42,7 @@
 
 }
 
-.container .box:hover .imgBox img {
+.container1 .box:hover .imgBox img {
     transform: scale(1.2);
 }
 
@@ -54,7 +54,7 @@ img {
 
 }
 
-.container .box .details {
+.container1 .box .details {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -65,12 +65,12 @@ img {
     transition: transform .5s;
 }
 
-.container .box:hover .details { /*second time this code is repeated.*/
+.container1 .box:hover .details { /*second time this code is repeated.*/
     transform: scaleY(1);
 }
 
 
-.container .box .details .content {
+.container1 .box .details .content {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -79,14 +79,14 @@ img {
     color: #fff;
 }
 
-.container .box .details .content h2 {
+.container1 .box .details .content h2 {
     margin: 0;
     padding: 0;
     font-size: 20px;
     color: #ff0;
 }
 
-.container .box .details .content h2 {
+.container1 .box .details .content h2 {
     margin: 10px 0 0;
     padding: 0;
   
