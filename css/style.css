@@ -34,10 +34,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-
-
-
 header, #intro-section, #services-section, #featured-work-section,
 #common-section, #blog1-section, #contact-section,
 #work-section {
@@ -47,10 +43,10 @@ header, #intro-section, #services-section, #featured-work-section,
 header {
   padding-top: 3em;
 }
-header .fh5co-navbar-brand {
+header .navbar-brand {
   padding-bottom: 3em;
 }
-header .fh5co-navbar-brand .fh5co-logo {
+header .navbar-brand .logo {
   position: relative;
   font-size: 50px;
   color: #000;
@@ -58,7 +54,7 @@ header .fh5co-navbar-brand .fh5co-logo {
   font-weight: 700;
   letter-spacing: 1px;
 }
-header .fh5co-navbar-brand .fh5co-logo:after {
+header .navbar-brand .logo:after {
   position: absolute;
   bottom: 13px;
   right: -14px;
@@ -67,33 +63,33 @@ header .fh5co-navbar-brand .fh5co-logo:after {
   background: #F03861;
   content: '';
 }
-header .fh5co-navbar-brand .fh5co-logo:hover {
+header .navbar-brand .logo:hover {
   text-decoration: none;
 }
-header #fh5co-main-nav > ul {
+header #main-nav > ul {
   padding: 0;
   margin: 0;
 }
-header #fh5co-main-nav > ul li {
+header #main-nav > ul li {
   list-style: none;
   display: inline-block;
   margin-left: 40px;
   font-size: 18px;
 }
 @media screen and (max-width: 768px) {
-  header #fh5co-main-nav > ul li {
+  header #main-nav > ul li {
     display: block;
     margin-left: 0;
     margin-bottom: 15px;
   }
 }
-header #fh5co-main-nav > ul li a {
+header #main-nav > ul li a {
   padding-bottom: 5px;
   color: #000;
   position: relative;
   font-weight: 400;
 }
-header #fh5co-main-nav > ul li a.active:before {
+header #main-nav > ul li a.active:before {
   position: absolute;
   width: 7px;
   height: 7px;
@@ -106,83 +102,16 @@ header #fh5co-main-nav > ul li a.active:before {
   -ms-border-radius: 2px;
   border-radius: 2px;
 }
-header #fh5co-main-nav > ul li a:hover, header #fh5co-main-nav > ul li a:focus {
+header #main-nav > ul li a:hover, header #main-nav > ul li a:focus {
   text-decoration: none;
   color: #000;
 }
-header #fh5co-main-nav > ul li:first-child {
+header #main-nav > ul li:first-child {
   margin-left: 0;
 }
 
-
-
-.fh5co-grid-work {
-  margin-bottom: 60px;
-}
-.fh5co-grid-work .work-holder {
-  position: relative;
-  margin-bottom: 30px;
-}
-.fh5co-grid-work .work-holder img {
-  max-width: 100%;
-}
-.fh5co-grid-work .work-holder .inner-overlay {
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(240, 56, 97, 0.9);
-  opacity: 0;
-}
-.fh5co-grid-work .work-holder .inner-overlay i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -10px;
-  margin-top: -10px;
-  color: #fff;
-  font-size: 30px;
-}
-.fh5co-grid-work .work-holder .inner-overlay.inner-overlay-2 {
-  background: rgba(248, 125, 9, 0.9);
-}
-.fh5co-grid-work .work-holder .inner-overlay.inner-overlay-3 {
-  background: rgba(23, 231, 164, 0.9);
-}
-.fh5co-grid-work .work-holder .inner-overlay.inner-overlay-4 {
-  background: rgba(249, 197, 53, 0.9);
-}
-.fh5co-grid-work .work-holder .inner-overlay.inner-overlay-4 {
-  background: rgba(81, 218, 207, 0.9);
-}
-.fh5co-grid-work .work-holder .inner-overlay.inner-overlay-5 {
-  background: rgba(255, 118, 118, 0.9);
-}
-.fh5co-grid-work .desc h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-.fh5co-grid-work .desc h3 a {
-  color: #000;
-}
-.fh5co-grid-work .desc span {
-  color: rgba(114, 114, 114, 0.5);
-  font-size: 16px;
-}
-.fh5co-grid-work:hover .inner-overlay, .fh5co-grid-work:focus .inner-overlay {
-  opacity: 1;
-}
 /*--------------------------------------Work/ bicycles we serviced*/
-/* ----------------------------------------Footer */
 
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
-}
 
 /* ----------------------------------------Footer */
 .social-links {
@@ -217,5 +146,102 @@ h4 {
 #address {
     text-align: center;
 }
+/*---------------------------------* End Footer*/
 
-/*---------------------------------*/
+
+/*---------------------------------Image Hover Overlay Effects 
+
+.body {
+    margin: 0;
+    padding: 0;
+    background: #262626;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1280px;
+    / * 1200 changed. remove these two to take out the white space around the block.
+    min-height: 500px;
+    background: #fff;
+    background became black.
+    * /
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row; / *will create seperate the bricks * /
+    flex-wrap: wrap; / * this will create seperate the bricksas complete squares* /
+}
+
+.container .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #ff0;
+    margin: 10px; / * This will split the yellow brick.* /
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.container .box .imgBox {
+    position: relative;
+}
+
+.container .box .imgBox img {
+    max-width: 100%;
+    transition: transform 2s;
+
+      object-fit: cover; 
+    width: 300px; 
+    height: 300px 
+
+}
+
+.container .box:hover .imgBox img {
+    transform: scale(1.2);
+}
+
+
+img { 
+    object-fit: cover; 
+    width: 300px; 
+    height: 300px 
+
+}
+
+.container .box .details {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.container .box:hover .details { / *second time this code is repeated.* /
+    transform: scaleY(1);
+}
+
+
+.container .box .details .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+.container .box .details .content h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #ff0;
+}
+
+.container .box .details .content h2 {
+    margin: 10px 0 0;
+    padding: 0;
+  
+}
+---------------------------------Image Hover Overlay Effects */
