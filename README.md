@@ -65,7 +65,9 @@ way of life sense they were 3 years old.
 This site is hosted using GitHub pages, deployed directly from the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be 
 named index.html.
 
-To run locally, clone this repository directly into the editor of your choice by pasting : 
+To run locally, clone this repository directly into the editor of your choice by pasting git clone :
+ https://github.com/Antonio-dev7/milestone-project.git  into your terminal. To cut ties with this GitHub repository, 
+ type git remote rm origin into the terminal.
 
 
 # Credits
