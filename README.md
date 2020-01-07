@@ -1,23 +1,3 @@
-#
-##
-###
-
-* dot
-
-References
-https://fontawesome.bootstrapcheatsheets.com/#
-https://mdbootstrap.com/docs/jquery/sections/features/
-https://getbootstrap.com/
-
-links
-<http://example.com>
-
-inline 
-[inline](http://example.com "optinal title")
-
-
-
-
 # PITSTOP
 
 Code Institute - User-Centric Frontend Development - Milestone Project
@@ -54,53 +34,60 @@ Amsterdamers with their needs when it comes the bicycles they dearly love and ha
 way of life sense they were 3 years old.
 
 
-## Technologies Used
+# Technologies Used
 
 1. HTML
 2. CSS
 3. Bootstrap (4.4.1)
 
 
-## Testing next
+# Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+* The website will work on all devices, But i made sure it works for mobile well. Most people use their smartphones first before a laptop.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
+#### Contact 
     1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+   
+   * All links will open in a new tab using target="_blank".
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+   This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices 
+   (iPhone 4,5,6,7,8,plus and X: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+   During testing a ran into many issues with image Hover Overlay Effects transform translateY and  transform: scaleY. 
+   It took me 3 days to get it to work. It was a nightmare to get the grid to work how i wanted, and things started shift around.
+   especially on mobile and Ipads.
+   
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+# Deployment
 
-## Deployment
+This site is hosted using GitHub pages, deployed directly from the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be 
+named index.html.
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+To run locally, clone this repository directly into the editor of your choice by pasting : 
 
 
-## Credits
+# Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+All content, 
+* Home 
+* Bicycles recently serviced
+* Services 
+* About 
+* Contact
 
+Was writen by me.
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from Unsplash <https://unsplash.com/>
+- I did resize many of the pictures to look like how I wanted it.
+
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I Solved many CSS and GRID problems by looking up solutions in : 
+* <https://www.w3schools.com/html/default.asp> 
+* <https://fontawesome.bootstrapcheatsheets.com/#>
+* <https://getbootstrap.com/>
+* Book : HTML & CSS design and build websites, by JON DUCKETT.
